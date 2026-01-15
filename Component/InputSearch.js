@@ -37,7 +37,7 @@ export default function InputSearch({
     return (
         <InputSearchContainer>
             <IconSearch
-                src="/icon/Searching.svg.svg"
+                src="/icon/Searching.svg"
                 alt='Searching'
             />
             <InputSearchInput
