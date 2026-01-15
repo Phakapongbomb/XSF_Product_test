@@ -84,10 +84,6 @@ export default function page() {
         setData({ ...data, [value.name]: value.value })
     }
 
-    useEffect(() => {
-        console.log(data)
-    }, [data])
-
     return (
         <ViewPage>
             <Title>Upload Product</Title>

@@ -37,8 +37,8 @@ export default function InputSearch({
     return (
         <InputSearchContainer>
             <IconSearch
-                src="/icon/searching.svg"
-                alt='searching'
+                src="/icon/Searching.svg.svg"
+                alt='Searching'
             />
             <InputSearchInput
                 placeholder={placeholder}
