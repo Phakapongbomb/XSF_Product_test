@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import UploadImage from '../../Component/UploadImage'
 import InputText from '@/Component/InputText'
 
-const Title = styled.h1`
+const Title = styled.h2`
     font-size: 32px;
     margin-bottom: 24px;
     max-width: 1240px;
@@ -27,6 +27,47 @@ const TitleInput = styled.p`
     width: 100%;
 `
 
+const ButtonGroup = styled.div`
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 40px auto;
+    width: 100%;
+    max-width: 924px;
+`
+
+const ButtonCancel = styled.button`
+    width: 100%;
+    max-width: 200px;
+    height: 48px;
+    border: 1px solid #E13B30;
+    background-color: white;
+    color: #E13B30;
+    border-radius: 99px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover {
+        background-color: #FFF5F5;
+    }
+`
+
+const ButtonConfirm = styled.button`
+    width: 100%;
+    max-width: 200px;
+    height: 48px;
+    border: none;
+    background-color: #E13B30;
+    color: white;
+    border-radius: 99px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover {
+        background-color: #C12A20;
+    }
+`
+
 export default function page() {
     const [files, setFiles] = useState([]);
     const [data, setData] = useState({
@@ -37,13 +78,10 @@ export default function page() {
     const { name, code, price } = data
 
     const onChange = (value) => {
-        if (value.name === 'price' && /^\d*$/.test(value.value)) {
-            setData({ ...data, [value.name]: value.value })
-        } else if (value.name === 'name' || value.name === 'code') {
-            setData({ ...data, [value.name]: value.value })
-        } else {
+        if (value.name === 'price' && !/^\d*$/.test(value.value)) {
             return
         }
+        setData({ ...data, [value.name]: value.value })
     }
 
     useEffect(() => {
@@ -79,6 +117,10 @@ export default function page() {
                     setValue={(val) => onChange({ name: 'price', value: val })}
                 />
             </ContainerProduct>
+            <ButtonGroup>
+                <ButtonCancel>ยกเลิก</ButtonCancel>
+                <ButtonConfirm>ยืนยัน</ButtonConfirm>
+            </ButtonGroup>
         </ViewPage>
     )
 }

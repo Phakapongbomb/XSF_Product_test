@@ -2,56 +2,65 @@
     "products": [
         {
             "name": "Product 1",
-            "price": 1000,
+            "price": "100",
             "code": "code1",
             "image": [
                 "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg"
-            ]
+                "/images/product2.jpeg",
+                "/images/product3.jpeg",
+                "/images/product4.jpeg",
+                "/images/product5.jpeg"
+            ],
+            "description": "Experience the ultimate quality with this premium product. Designed with attention to detail, it offers superior performance and durability. Whether for professional use or personal enjoyment, this item stands out with its sleek design and robust features. Crafted from high-grade materials, it ensures long-lasting satisfaction. Upgrade your collection today with this must-have accessory that combines style and functionality seamlessly. It is the perfect choice for anyone looking for reliability and elegance in one package."
         },
         {
             "name": "Product 2",
-            "price": 200,
+            "price": "200",
             "code": "code2",
             "image": [
-                "/images/product1.jpg"
-            ]
+                "/images/product2.jpeg",
+                "/images/product1.jpg",
+                "/images/product3.jpeg",
+                "/images/product5.jpeg"
+            ],
+            "description": "This exceptional item is crafted from high-grade materials to ensure long-lasting satisfaction. Its modern aesthetic matches any style, making it a perfect addition to your collection. Upgrade your lifestyle with this versatile and reliable product today. With its innovative design and top-notch build quality, it promises to exceed your expectations. Perfect for home or office use, it brings a touch of sophistication to your daily routine. Don't miss out on this opportunity to own a truly remarkable product."
         },
         {
             "name": "Product 3",
-            "price": 300,
+            "price": "300",
             "code": "code3",
             "image": [
+                "/images/product3.jpeg",
+                "/images/product5.jpeg",
                 "/images/product1.jpg",
-                "/images/product1.jpg"
-            ]
+                "/images/product4.jpeg",
+                "/images/product2.jpeg"
+            ],
+            "description": "Discover the perfect blend of style and functionality. This product is built to last and designed to impress. Its intuitive features and ergonomic design make it a joy to use. Ideal for gifts or personal treats, it delivers value and quality in every aspect. Whether you are a beginner or an expert, you will appreciate the thought that went into creating this masterpiece. It is available now and ready to transform your experience. Order yours today and feel the difference."
         },
         {
             "name": "Product 4",
             "price": 400,
             "code": "code4",
             "image": [
+                "/images/product4.jpeg",
                 "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg"
-            ]
+                "/images/product2.jpeg",
+                "/images/product5.jpeg"
+            ],
+            "description": "Experience the ultimate quality with this premium product. Designed with attention to detail, it offers superior performance and durability. Whether for professional use or personal enjoyment, this item stands out with its sleek design and robust features. Crafted from high-grade materials, it ensures long-lasting satisfaction. Upgrade your collection today with this must-have accessory that combines style and functionality seamlessly. It is the perfect choice for anyone looking for reliability and elegance in one package."
         },
         {
             "name": "Product 5",
             "price": 500,
             "code": "code5",
             "image": [
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
+                "/images/product5.jpeg",
+                "/images/product4.jpeg",
+                "/images/product3.jpeg",
                 "/images/product1.jpg"
-            ]
+            ],
+            "description": "This exceptional item is crafted from high-grade materials to ensure long-lasting satisfaction. Its modern aesthetic matches any style, making it a perfect addition to your collection. Upgrade your lifestyle with this versatile and reliable product today. With its innovative design and top-notch build quality, it promises to exceed your expectations. Perfect for home or office use, it brings a touch of sophistication to your daily routine. Don't miss out on this opportunity to own a truly remarkable product."
         },
         {
             "name": "Product 6",
@@ -59,59 +68,63 @@
             "code": "code6",
             "image": [
                 "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg"
-            ]
+                "/images/product3.jpeg",
+                "/images/product5.jpeg",
+                "/images/product2.jpeg",
+                "/images/product4.jpeg"
+            ],
+            "description": "Discover the perfect blend of style and functionality. This product is built to last and designed to impress. Its intuitive features and ergonomic design make it a joy to use. Ideal for gifts or personal treats, it delivers value and quality in every aspect. Whether you are a beginner or an expert, you will appreciate the thought that went into creating this masterpiece. It is available now and ready to transform your experience. Order yours today and feel the difference."
         },
         {
             "name": "Product 7",
             "price": 700,
             "code": "code7",
             "image": [
+                "/images/product2.jpeg",
+                "/images/product5.jpeg",
                 "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg"
-            ]
+                "/images/product4.jpeg"
+            ],
+            "description": "Experience the ultimate quality with this premium product. Designed with attention to detail, it offers superior performance and durability. Whether for professional use or personal enjoyment, this item stands out with its sleek design and robust features. Crafted from high-grade materials, it ensures long-lasting satisfaction. Upgrade your collection today with this must-have accessory that combines style and functionality seamlessly. It is the perfect choice for anyone looking for reliability and elegance in one package."
         },
         {
             "name": "Product 8",
             "price": 800,
             "code": "code8",
             "image": [
+                "/images/product3.jpeg",
                 "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg"
-            ]
+                "/images/product4.jpeg",
+                "/images/product2.jpeg",
+                "/images/product5.jpeg"
+            ],
+            "description": "This exceptional item is crafted from high-grade materials to ensure long-lasting satisfaction. Its modern aesthetic matches any style, making it a perfect addition to your collection. Upgrade your lifestyle with this versatile and reliable product today. With its innovative design and top-notch build quality, it promises to exceed your expectations. Perfect for home or office use, it brings a touch of sophistication to your daily routine. Don't miss out on this opportunity to own a truly remarkable product."
         },
         {
             "name": "Product 9",
             "price": 900,
             "code": "code9",
             "image": [
+                "/images/product4.jpeg",
+                "/images/product2.jpeg",
+                "/images/product5.jpeg",
                 "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg"
-            ]
+                "/images/product3.jpeg"
+            ],
+            "description": "Discover the perfect blend of style and functionality. This product is built to last and designed to impress. Its intuitive features and ergonomic design make it a joy to use. Ideal for gifts or personal treats, it delivers value and quality in every aspect. Whether you are a beginner or an expert, you will appreciate the thought that went into creating this masterpiece. It is available now and ready to transform your experience. Order yours today and feel the difference."
         },
         {
             "name": "Product 10",
             "price": 1000,
             "code": "code10",
             "image": [
+                "/images/product5.jpeg",
                 "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg"
-            ]
+                "/images/product3.jpeg",
+                "/images/product2.jpeg",
+                "/images/product4.jpeg"
+            ],
+            "description": "Experience the ultimate quality with this premium product. Designed with attention to detail, it offers superior performance and durability. Whether for professional use or personal enjoyment, this item stands out with its sleek design and robust features. Crafted from high-grade materials, it ensures long-lasting satisfaction. Upgrade your collection today with this must-have accessory that combines style and functionality seamlessly. It is the perfect choice for anyone looking for reliability and elegance in one package."
         },
         {
             "name": "Product 11",
@@ -119,59 +132,62 @@
             "code": "code11",
             "image": [
                 "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg"
-            ]
+                "/images/product4.jpeg",
+                "/images/product2.jpeg",
+                "/images/product5.jpeg"
+            ],
+            "description": "This exceptional item is crafted from high-grade materials to ensure long-lasting satisfaction. Its modern aesthetic matches any style, making it a perfect addition to your collection. Upgrade your lifestyle with this versatile and reliable product today. With its innovative design and top-notch build quality, it promises to exceed your expectations. Perfect for home or office use, it brings a touch of sophistication to your daily routine. Don't miss out on this opportunity to own a truly remarkable product."
         },
         {
             "name": "Product 12",
             "price": 1200,
             "code": "code12",
             "image": [
+                "/images/product2.jpeg",
+                "/images/product3.jpeg",
                 "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg"
-            ]
+                "/images/product4.jpeg",
+                "/images/product5.jpeg"
+            ],
+            "description": "Discover the perfect blend of style and functionality. This product is built to last and designed to impress. Its intuitive features and ergonomic design make it a joy to use. Ideal for gifts or personal treats, it delivers value and quality in every aspect. Whether you are a beginner or an expert, you will appreciate the thought that went into creating this masterpiece. It is available now and ready to transform your experience. Order yours today and feel the difference."
         },
         {
             "name": "Product 13",
             "price": 1300,
             "code": "code13",
             "image": [
+                "/images/product3.jpeg",
                 "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg"
-            ]
+                "/images/product5.jpeg",
+                "/images/product2.jpeg"
+            ],
+            "description": "Experience the ultimate quality with this premium product. Designed with attention to detail, it offers superior performance and durability. Whether for professional use or personal enjoyment, this item stands out with its sleek design and robust features. Crafted from high-grade materials, it ensures long-lasting satisfaction. Upgrade your collection today with this must-have accessory that combines style and functionality seamlessly. It is the perfect choice for anyone looking for reliability and elegance in one package."
         },
         {
             "name": "Product 14",
             "price": 1400,
             "code": "code14",
             "image": [
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
+                "/images/product4.jpeg",
+                "/images/product5.jpeg",
+                "/images/product2.jpeg",
+                "/images/product3.jpeg",
                 "/images/product1.jpg"
-            ]
+            ],
+            "description": "This exceptional item is crafted from high-grade materials to ensure long-lasting satisfaction. Its modern aesthetic matches any style, making it a perfect addition to your collection. Upgrade your lifestyle with this versatile and reliable product today. With its innovative design and top-notch build quality, it promises to exceed your expectations. Perfect for home or office use, it brings a touch of sophistication to your daily routine. Don't miss out on this opportunity to own a truly remarkable product."
         },
         {
             "name": "Product 15",
             "price": 1500,
             "code": "code15",
             "image": [
+                "/images/product5.jpeg",
                 "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg",
-                "/images/product1.jpg"
-            ]
+                "/images/product4.jpeg",
+                "/images/product3.jpeg",
+                "/images/product2.jpeg"
+            ],
+            "description": "Discover the perfect blend of style and functionality. This product is built to last and designed to impress. Its intuitive features and ergonomic design make it a joy to use. Ideal for gifts or personal treats, it delivers value and quality in every aspect. Whether you are a beginner or an expert, you will appreciate the thought that went into creating this masterpiece. It is available now and ready to transform your experience. Order yours today and feel the difference."
         }
     ]
 }

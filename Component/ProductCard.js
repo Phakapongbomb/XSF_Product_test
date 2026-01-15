@@ -4,8 +4,10 @@ import styled from 'styled-components'
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/css';
 import 'swiper/css/pagination';
+import { formatCurrency } from '../utils/format';
+import Link from 'next/link';
 
-const Product = styled.div`
+const Product = styled(Link)`
     width: 200px;
     height: 335px;
     border-radius: 16px;
@@ -103,7 +105,9 @@ export default function ProductCard({
     const [activeIndex, setActiveIndex] = useState(0);
 
     return (
-        <Product>
+        <Product
+            href={`/product_detail/${code}`}
+        >
             <ProductImg>
                 <Swiper
                     slidesPerView={1}
@@ -134,7 +138,7 @@ export default function ProductCard({
             <ProductDetail>
                 <ProductName>{name}</ProductName>
                 <ProductCode>{code}</ProductCode>
-                <ProductPrice>฿{price}</ProductPrice>
+                <ProductPrice>฿{formatCurrency(price)}</ProductPrice>
             </ProductDetail>
         </Product>
     )
